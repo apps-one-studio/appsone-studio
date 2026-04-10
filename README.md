@@ -21,12 +21,6 @@ Next.js
 TypeScript
 Tailwind CSS
 
-## Tech Stack
-
-Next.js
-TypeScript
-Tailwind CSS
-
 ## Deployment
 
 Deployed via Vercel.
