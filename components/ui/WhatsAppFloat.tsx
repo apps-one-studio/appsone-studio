@@ -10,7 +10,7 @@ export default function WhatsAppFloat() {
       initial={{ scale: 0 }}
       animate={{ scale: 1 }}
       transition={{ delay: 1 }}
-      className="fixed bottom-6 text-xs right-6 z-50 bg-green-500 font-bold text-white px-2 py-4 rounded-full shadow-sm flex items-center gap-2 hover:scale-110 transition"
+      className="fixed bottom-6 right-6 z-50 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg flex items-center gap-2 hover:scale-110 transition"
     >
       💬 Chat
     </motion.a>

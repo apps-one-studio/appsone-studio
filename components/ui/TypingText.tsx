@@ -37,39 +37,15 @@ export default function TypingText() {
   }, [textIndex]);
 
   return (
-    <span className="text-[var(--color-accent)]">
-      {displayed}
-      <span className="animate-pulse">|</span>
-    </span>
-  );
+  <span className="text-[var(--color-accent-soft)] text-xs xl:text-xl">
+    {displayed}
+    <span className="animate-pulse">|</span>
+  </span>
+ );
 }
-// "use client";
 
-// import { useEffect, useState } from "react";
-
-// const texts = [
-//   "AI-Powered Websites.",
-//   "Smart Digital Systems.",
-//   "UX Strategy and Industry Solutions.",
-//   "Search Engine Optimization.",
-//   "Scalable Growth Platforms.",
-//   "Strategic Partnership.",
-// ];
-
-// export default function TypingText() {
-//   const [index, setIndex] = useState(0);
-
-//   useEffect(() => {
-//     const interval = setInterval(() => {
-//       setIndex((prev) => (prev + 1) % texts.length);
-//     }, 2500);
-
-//     return () => clearInterval(interval);
-//   }, []);
-
-//   return (
-//     <p className="mt-4 text-green-300 font-medium">
-//       {texts[index]}
-//     </p>
-//   );
-// }
+// Class,CSS Value,Best Use Case
+// text-xs,0.75rem (12px),Mobile screens (Your current setting)
+// text-sm,0.875rem (14px),Small/Compact text
+// text-base,1rem (16px),"Standard ""Medium"" body text" USE AS "md:text-base"
+// text-lg,1.125rem (18px),Slightly larger for emphasis

@@ -8,6 +8,12 @@ const testimonials = [
     location: "Lagos, Nigeria",
     text: "Appsone Studio transformed our entire digital platform. Our conversions skyrocketed.",
   },
+
+  {
+  name: "Anthonia Omale",
+  location: "Lagos, Nigeria",
+  text: "Appsone Studio transformed our product and increased conversions massively.",
+  },
   {
     name: "Sarah M.",
     location: "Porthacourt, Nigeria",
@@ -19,9 +25,19 @@ const testimonials = [
     text: "Their AI solutions gave us a serious competitive edge.",
   },
   {
+    name: "Fatima Bello",
+    location: "Ekiti, Nigeria",
+    text: "Their growth system helped us double our conversion rate.",
+  },
+  {
     name: "Oyekade A.",
     location: "Abuja, Nigeria",
     text: "Top-tier development and communication throughout.",
+  },
+  {
+    name: "Grace Ibrahim",
+    location: "Lagos, Nigeria",
+    text: "Customer engagement improved drastically with AI chat integration.",
   },
   {
     name: "Grace T.",
@@ -29,9 +45,19 @@ const testimonials = [
     text: "Beautiful UI and strong backend systems. Perfect balance.",
   },
   {
+    name: "Ezekiel Fasanya",
+    location: "Ibadan, Nigeria",
+    text: "The performance and UX improvements were outstanding.",
+  },
+  {
     name: "Hassan A.",
     location: "Kano, Nigeria",
     text: "They think beyond design — they think growth.",
+  },
+  {
+    name: "David Adeyemi",
+    location: "Abeokuta, Nigeria",
+    text: "Appsone’s UX strategy completely transformed our customer journey.",
   },
   {
     name: "Fatima S.",
@@ -42,6 +68,21 @@ const testimonials = [
     name: "Helen J.",
     location: "Uyo, Nigeria",
     text: "Clean architecture, scalable systems, and excellent support.",
+  },
+  {
+    name: "Chioma Nwankwo",
+    location: "Ebonyi, Nigeria",
+    text: "Our product became significantly easier to use, and conversions improved instantly.",
+  },
+  {
+    name: "Samuel Okeke",
+    location: "Imo, Nigeri",
+    text: "The AI system automated 70% of our operations.",
+  },
+  {
+    name: "Tunde Balogun",
+    location: "Ilorin, Nigeria",
+    text: "We saw measurable growth in revenue within weeks of implementation.",
   },
 ];
 
@@ -66,7 +107,7 @@ export default function TestimonialsMotion() {
             animate={{ x: ["0%", "-50%"] }}
             transition={{
               repeat: Infinity,
-              duration: 25,
+              duration: 100,
               ease: "linear",
             }}
           >

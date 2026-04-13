@@ -14,7 +14,7 @@ export default function VisualOverview() {
         </p>
 
       <Image
-        src="/banner.png"
+        src="/images/banner.png"
         alt="Visual Overview"
         width={800}
         height={500}
